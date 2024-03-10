@@ -6,7 +6,6 @@ public class Variables {
         int b = 5;
         String name = "Tony Stark";
         System.out.println(a);
-        //never put variable in "" then error will come
         System.out.println(b);
         System.out.println(name);
 
