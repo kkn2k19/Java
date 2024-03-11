@@ -1,15 +1,9 @@
-switch(day) {
-        //     case 1 :
-        //     case 2 :
-        //     case 3 :
-        //     case 4 :
-        //     case 5 :
-        //         System.out.println("Weekday");
-        //         break;
-        //     case 6 :
-        //     case 7 :
-        //         System.out.println("Weekend");
-        //         break;
-        //     default : 
-        //         System.out.println("please enter valid day number.");
-        // }
+static void sum() {
+    //     Scanner sc = new Scanner(System.in);
+    //     System.out.print("Enter num1 : ");
+    //     int num1 = sc.nextInt();
+    //     System.out.print("Enter num2 : ");
+    //     int num2 = sc.nextInt();
+    //     int sum = num1 + num2;
+    //     System.out.println("Sum : " + sum);
+    // }
