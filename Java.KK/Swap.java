@@ -1,7 +1,7 @@
 public class Swap {
     public static void main(String[] args) {
-        int a = 10;
-        int b = 20;
+        // int a = 10;
+        // int b = 20;
 
         // swap numbers code
         // int temp = a;
@@ -25,6 +25,9 @@ public class Swap {
     //     int temp = a;
     //     a = b;
     //     b = temp;
+
+    // this change will only be valid in this function scope only.
+    
     //     System.out.println(a + " " + b);
     // }
 }
