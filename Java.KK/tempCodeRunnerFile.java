@@ -1,9 +1,13 @@
-static void sum() {
-    //     Scanner sc = new Scanner(System.in);
-    //     System.out.print("Enter num1 : ");
-    //     int num1 = sc.nextInt();
-    //     System.out.print("Enter num2 : ");
-    //     int num2 = sc.nextInt();
-    //     int sum = num1 + num2;
-    //     System.out.println("Sum : " + sum);
-    // }
+list.add(14401);
+        list.add(10331);
+        list.add(1031);
+        list.add(10441);
+        list.add(1041);
+        list.add(1031);
+        list.add(1401);
+        list.add(101);
+        list.add(35);
+        list.add(11);
+        list.add(32);
+        list.add(2);
+        list.add(33);
