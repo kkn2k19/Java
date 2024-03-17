@@ -20,7 +20,7 @@ public class LinearSearch {
         if (arr.length == 0) {
             return -1;
         }
-
+        
         // run a for loop
         for (int i = 0; i < arr.length; i++) {
             // check for element at every index if it is = key 
@@ -29,9 +29,38 @@ public class LinearSearch {
                 return i;
             }
         }
-
+        
         // this line will be executed if none of the return statements above have been executed
         // hence the target not found
         return -1;
+        
+    }
+
+    static int linearSearch2(int[] arr, int key) {
+        if (arr.length == 0) {
+            return -1;
+        }
+        
+        // run a for loop
+        for (int element : arr) {
+            if (element == key) {
+                return element;
+            }
+        }
+        return Integer.MIN_VALUE;  // for not found
+    }
+
+    static boolean linearSearch3(int[] arr, int key) {
+        if (arr.length == 0) {
+            return false;
+        }
+        
+        // run a for loop
+        for (int element : arr) {
+            if (element == key) {
+                return true;
+            }
+        }
+        return false;  // for not found
     }
 }

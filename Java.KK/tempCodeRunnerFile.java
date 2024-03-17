@@ -1,13 +1,2 @@
-list.add(14401);
-        list.add(10331);
-        list.add(1031);
-        list.add(10441);
-        list.add(1041);
-        list.add(1031);
-        list.add(1401);
-        list.add(101);
-        list.add(35);
-        list.add(11);
-        list.add(32);
-        list.add(2);
-        list.add(33);
+ search(arr, key); // format of return value {row, col}
+        // System.out.println(Arrays.toString(ans));
