@@ -12,6 +12,9 @@ public class CeilingOfaNumber {
         int end = arr.length - 1;
 
         while (start <= end) {
+            if (key > arr[arr.length - 1]) {
+                return -1;
+            }
             int mid = start + (end - start) / 2;
             if (key == arr[mid]) {
                 return key;
