@@ -15,14 +15,35 @@ public class MaximumAndMinimumNumber {
         System.out.println("Minimum : " + minimum(a, b, c));
     }
 
-    static void maximum(int a, int b, int c) {
+    static int maximum(int a, int b, int c) {
+        int max;
         if (a >= b && a >= c) {
-            return a;
+            max = a;
         } else if (b >= c) {
-            return b;
+            max = b;
         } else {
-            return c;
+            max = c;
         }
-        return -1;
+        return max;
+    }
+
+    static int minimum(int a, int b, int c) {
+        int min;
+        if (a >= b && b >= c) {
+            min = c;
+        } else if (c >= a && a >= b) {
+            min = b;
+        } else {
+            min = a;
+        }
+        return min;
     }
 }
+
+/*
+ * Outputs --
+ * 
+ * Provide Three Integer Numbers : 5 9 8
+ * Maximum : 9
+ * Minimum : 5
+ */
