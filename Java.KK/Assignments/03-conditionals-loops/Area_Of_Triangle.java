@@ -3,13 +3,13 @@
 // 28.03.2024
 import java.util.Scanner;
 
-public class AreaOfTriangle {
+public class Area_Of_Triangle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Provide height and width of Triangle : ");
         float height = sc.nextFloat();
-        float width = sc.nextFloat();
-        double Area = height * width * 0.5;
+        float base = sc.nextFloat();
+        double Area = height * base * 0.5;
         System.out.println("Area of Triangle  : " + Area);
     }
 }
