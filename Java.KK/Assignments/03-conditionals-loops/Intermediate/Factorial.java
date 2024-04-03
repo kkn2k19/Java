@@ -1,8 +1,11 @@
 // 28.03.2024
+// Factorial
+
+package Intermediate;
 
 import java.util.Scanner;
 
-public class FactorialProgramInJava {
+public class Factorial {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter n : ");
