@@ -4,7 +4,7 @@
 
 import java.util.Scanner;
 
-public class SubtractProductAndSumOfDigitsOfAnInteger {
+public class Subtract_the_Product_and_Sum_of_Digits_of_an_Integer {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Provide a Number : ");
