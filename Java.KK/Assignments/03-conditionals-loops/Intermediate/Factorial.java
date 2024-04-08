@@ -1,8 +1,6 @@
 // 28.03.2024
 // Factorial
 
-package Intermediate;
-
 import java.util.Scanner;
 
 public class Factorial {
