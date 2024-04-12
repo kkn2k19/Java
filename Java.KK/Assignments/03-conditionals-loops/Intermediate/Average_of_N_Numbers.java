@@ -16,7 +16,7 @@ public class Average_of_N_Numbers {
             sum += value;
             count++;
         }
-        double average = sum / n;
+        double average = (double) sum / n;
         System.out.println("Average : " + average);
     }
 }
@@ -26,5 +26,5 @@ public class Average_of_N_Numbers {
  * 
  * Enter n : 5
  * Enter values : 1 5 9 3 5
- * Average : 4.0
+ * Average : 4.6
  */
