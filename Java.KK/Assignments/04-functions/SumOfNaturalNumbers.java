@@ -1,6 +1,8 @@
+// package Assignment.04-functions;
+
 // https://www.geeksforgeeks.org/program-find-sum-first-n-natural-numbers/
 
-// Program to find sum of first n natural numbers
+// 14. Write a function that returns the sum of first n natural numbers.
 
 import java.util.Scanner;
 
@@ -9,10 +11,10 @@ public class SumOfNaturalNumbers {
         Scanner sc = new Scanner(System.in);
         System.out.print("Provide n : ");
         int n = sc.nextInt();
-        System.out.println("Sum : " + SumOfNaturalNumbers(n));
+        System.out.println("Sum : " + sumOfNaturalNumbers(n));
     }
 
-    static int SumOfNaturalNumbers(int n) {
+    static int sumOfNaturalNumbers(int n) {
         int sum = 0;
         for (int i = 1; i <= n; i++) {
             sum += i;
