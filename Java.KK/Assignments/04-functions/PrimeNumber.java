@@ -1,5 +1,5 @@
 // package Assignments.04-functions;
-// Define a method to find out if a number is prime or not.
+// 7. Define a method to find out if a number is prime or not.
 
 import java.util.Scanner;
 
