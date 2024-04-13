@@ -1,6 +1,8 @@
+// package Assignments.04-functions;
+
 // https://www.geeksforgeeks.org/program-to-find-prime-numbers-between-given-interval/
 
-// Program to find Prime Numbers Between given Interval
+// 13. Write a function that returns all prime numbers between two given numbers.
 
 import java.util.Scanner;
 
