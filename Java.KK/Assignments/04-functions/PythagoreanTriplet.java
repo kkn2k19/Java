@@ -1,6 +1,8 @@
+// package Assignments.04-functions;
+
 // Write a function to check if a given triplet is a Pythagorean triplet or not. (A Pythagorean triplet is when the sum of the square of two numbers is equal to the square of the third number).
 
-// https://www.geeksforgeeks.org/find-pythagorean-triplet-in-an-unsorted-array/
+// 12. https://www.geeksforgeeks.org/find-pythagorean-triplet-in-an-unsorted-array/
 
 import java.util.Scanner;
 
