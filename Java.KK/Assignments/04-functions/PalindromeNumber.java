@@ -1,4 +1,6 @@
-// https://www.geeksforgeeks.org/check-if-a-number-is-palindrome/
+// package Assignments.04-functions;
+
+// 10. https://www.geeksforgeeks.org/check-if-a-number-is-palindrome/
 
 import java.util.Scanner;
 
