@@ -1,6 +1,6 @@
 // package Assignments.04-functions;
 
-// Java Program to Check if a given integer is Odd or Even
+// 2. Java Program to Check if a given integer is Odd or Even
 
 import java.util.Scanner;
 
