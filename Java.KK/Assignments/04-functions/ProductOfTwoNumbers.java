@@ -1,5 +1,5 @@
 // package Assignments.04-functions;
-// Java program to multiply two numbers using method
+// 5. Java program to multiply two numbers using method
 
 import java.util.Scanner;
 
