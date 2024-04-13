@@ -1,5 +1,6 @@
 // package Assignments.04-functions;
-//Addition of two numbers in Java using method
+
+//4. Addition of two numbers in Java using method
 
 import java.util.Scanner;
 
