@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 switch(day) {
         //     case 1 :
         //     case 2 :
@@ -13,3 +14,6 @@ switch(day) {
         //     default : 
         //         System.out.println("please enter valid day number.");
         // }
+=======
+System.out.println();
+>>>>>>> e41821e (updated all)

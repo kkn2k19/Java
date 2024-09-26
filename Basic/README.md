@@ -1,2 +1,0 @@
-# Bekar_hai_bhaiya_mai_to_tut_gaya
-Bekar_hai_bhaiya_mai_to_tut_gaya
