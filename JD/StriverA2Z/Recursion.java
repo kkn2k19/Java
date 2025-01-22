@@ -44,9 +44,38 @@ public class Recursion {
         // System.out.println("Sum : " + funcMethod(n));
 
         // Factorial Case
-        System.out.print("Enter n : ");
+        // System.out.print("Enter n : ");
+        // int n = sc.nextInt();
+        // System.out.println("Factorial : " + fact(n));
+
+        // Reverse an Array using Recursion
+        System.out.print("Enter size of Array : ");
         int n = sc.nextInt();
-        System.out.println("Factorial : " + fact(n));
+        System.out.print("Enter Array elements : ");
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+        }
+        // reverse
+        rev(arr, 0); // just passed array and start index
+        // print reversed array
+        for (int i = 0; i < n; i++) {
+            System.out.print(arr[i] + " ");
+        }
+    }
+
+    public static void rev(int[] arr, int i) {
+        if (i >= arr.length / 2) {
+            return;
+        }
+        swap(arr, i, arr.length - i - 1);
+        rev(arr, i + 1);
+    }
+
+    public static void swap(int[] arr, int a, int b) {
+        int temp = arr[a];
+        arr[a] = arr[b];
+        arr[b] = temp;
     }
 
     public static int fact(int n) {
