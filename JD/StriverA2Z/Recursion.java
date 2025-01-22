@@ -48,20 +48,49 @@ public class Recursion {
         // int n = sc.nextInt();
         // System.out.println("Factorial : " + fact(n));
 
-        // Reverse an Array using Recursion
-        System.out.print("Enter size of Array : ");
+        // // Reverse an Array using Recursion
+        // System.out.print("Enter size of Array : ");
+        // int n = sc.nextInt();
+        // System.out.print("Enter Array elements : ");
+        // int[] arr = new int[n];
+        // for (int i = 0; i < n; i++) {
+        // arr[i] = sc.nextInt();
+        // }
+        // // reverse
+        // rev(arr, 0); // just passed array and start index
+        // // print reversed array
+        // for (int i = 0; i < n; i++) {
+        // System.out.print(arr[i] + " ");
+        // }
+
+        // String str1 = "MADAM";
+        // String str2 = "MADSM";
+
+        // System.out.println(checkPalindrome(str1, 0)); // passed initial index or
+        // start index
+        // System.out.println(checkPalindrome(str2, 0));
+
+        // Fibonacci Number
+        System.out.print("Enter n : ");
         int n = sc.nextInt();
-        System.out.print("Enter Array elements : ");
-        int[] arr = new int[n];
-        for (int i = 0; i < n; i++) {
-            arr[i] = sc.nextInt();
+        System.out.println("Fibonacci : " + fibonacci(n));
+    }
+
+    public static int fibonacci(int n) {
+        if (n <= 1) {
+            return n;
         }
-        // reverse
-        rev(arr, 0); // just passed array and start index
-        // print reversed array
-        for (int i = 0; i < n; i++) {
-            System.out.print(arr[i] + " ");
+        return fibonacci(n - 1) + fibonacci(n - 2);
+    }
+
+    public static boolean checkPalindrome(String str, int i) {
+        if (i >= str.length() / 2) {
+            return true;
         }
+        if (str.charAt(i) != str.charAt(str.length() - i - 1)) {
+            return false;
+        }
+        return checkPalindrome(str, i + 1);
     }
 
     public static void rev(int[] arr, int i) {
