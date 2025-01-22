@@ -26,9 +26,50 @@ public class Recursion {
         // int n = sc.nextInt();
         // printLinearlyBackTrack(n);
 
+        // System.out.print("Enter n : ");
+        // int n = sc.nextInt();
+        // printBackTrack(1, n);
+
+        // Parameterised Recursion
+        // Sum of first N numbers
+        // System.out.print("Enter n : ");
+        // int n = sc.nextInt();
+        // int iniSum = 0;
+        // paraFunc(n, iniSum); // passing n and initial Sum = 0
+
+        // Functional Method
+        // we just pass the n
+        // System.out.print("Enter n : ");
+        // int n = sc.nextInt();
+        // System.out.println("Sum : " + funcMethod(n));
+
+        // Factorial Case
         System.out.print("Enter n : ");
         int n = sc.nextInt();
-        printBackTrack(1, n);
+        System.out.println("Factorial : " + fact(n));
+    }
+
+    public static int fact(int n) {
+        if (n == 1) {
+            return 1;
+        }
+        return n * fact(n - 1);
+    }
+
+    public static int funcMethod(int n) {
+        if (n == 0) {
+            return 0;
+        }
+        return n + funcMethod(n - 1);
+    }
+
+    public static void paraFunc(int n, int iniSum) {
+        if (n < 1) {
+            System.out.println("Sum = " + iniSum);
+            return;
+        }
+        iniSum += n;
+        paraFunc(n - 1, iniSum); // recursion
     }
 
     public static void printBackTrack(int i, int n) {
