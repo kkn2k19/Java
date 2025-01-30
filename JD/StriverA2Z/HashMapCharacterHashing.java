@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 import java.util.HashMap;
 
@@ -10,7 +11,7 @@ public class HashMapCharacterHashing {
         // precompute // declare HashMap with Wrapper class DataType
         HashMap<Character, Integer> map = new HashMap<Character, Integer>();
         for (int i = 0; i < str.length(); i++) {
-            Character c = map.get(str.charAt(i));
+            Integer c = map.get(str.charAt(i));
             if (c == null) {
                 map.put(str.charAt(i), 1);
             } else {
