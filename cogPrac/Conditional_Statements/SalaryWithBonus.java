@@ -12,7 +12,7 @@ public class SalaryWithBonus {
             else
                 bonus = sal * 0.10;
         } else {
-            bonus = sal * 0.10;
+            bonus = sal * 0.05;
         }
 
         System.out.println("Salary: " + sal);
