@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PrimesInRange {
+public class PrimesInRange_ {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
